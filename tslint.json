@@ -1,0 +1,84 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-react"
+    ],
+    "jsRules": {
+        "quotemark": [
+            true,
+            "single",
+            "jsx-double"
+        ]
+    },
+    "rules": {
+        "indent": [
+            true,
+            "tabs"
+        ],
+        "quotemark": [
+            true,
+            "single",
+            "jsx-double"
+        ],
+        "max-line-length": [
+            true,
+            300
+        ],
+        "no-unused-expression": [
+            true,
+            "allow-fast-null-checks"
+        ],
+        "no-empty-interface": false,
+        "curly": false,
+        "ordered-imports": false,
+        "no-unused-variable": true,
+        "align": false,
+        "object-literal-sort-keys": false,
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "trailing-comma": [
+            true,
+            {
+                "singleline": "never",
+                "multiline": {
+                    "objects": "always",
+                    "arrays": "always",
+                    "functions": "never",
+                    "typeLiterals": "ignore"
+                },
+                "esSpecCompliant": true
+            }
+        ],
+        "arrow-parens": false,
+        "object-literal-key-quotes": false,
+        "member-ordering": false,
+        "member-access": false,
+        "jsx-wrap-multiline": false,
+        "jsx-alignment": false,
+        "variable-name": [
+            true,
+            "ban-keywords",
+            "check-format",
+            "allow-pascal-case",
+            "allow-leading-underscore"
+        ],
+        "jsx-no-lambda": false,
+        "jsx-boolean-value": false,
+        "no-console": [
+            true,
+            "log"
+        ]
+    },
+    "rulesDirectory": [],
+    "globals": {
+        "__DEV__": true
+    },
+    "linterOptions": {
+        "exclude": [
+            "**/*.spec.ts.snap"
+        ]
+    }
+}

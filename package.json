@@ -1,0 +1,43 @@
+{
+  "name": "react-native-fade-carousel",
+  "version": "1.0.0",
+  "description": "Fade image carousel component for React Native. Compatible with iOS and Android.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markhomoki/react-native-fade-carousel.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "carousel",
+    "slideshow",
+    "fade",
+    "ios",
+    "android",
+    "images",
+    "component",
+    "infinite"
+  ],
+  "author": "Mark Homoki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markhomoki/react-native-fade-carousel/issues"
+  },
+  "homepage": "https://github.com/markhomoki/react-native-fade-carousel#readme",
+  "peerDependencies": {
+    "react": ">=15.0.0",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.17",
+    "@types/react-native": "^0.57.53",
+    "tslint": "^5.16.0",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.4.5"
+  }
+}
