@@ -1,8 +1,3 @@
-import Carousel from './Carousel';
-import { ICarouselProps, ICarouselSlide } from './types';
+import FadeCarousel from './FadeCarousel';
 
-export { 
-    Carousel as default, 
-    ICarouselProps, 
-    ICarouselSlide,
-};
+export default FadeCarousel;

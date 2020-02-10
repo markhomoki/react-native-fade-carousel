@@ -12,7 +12,8 @@
 				"./src/*"
 			]
 		},
-		"outDir": "./lib/",
+		// "outDir": "./lib/",
+		"outDir": "../themodelapp-app/node_modules/react-native-fade-carousel/lib",
 		"declaration": true,
 		"sourceMap": false,
 		"allowSyntheticDefaultImports": true,
